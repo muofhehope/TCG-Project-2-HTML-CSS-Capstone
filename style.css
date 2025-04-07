@@ -5,40 +5,41 @@
   font-family: 'Be Vietnam', sans-serif;
 } 
 
-  body {
+body {
     font-size: 16px;
     } 
     
     
-    .container {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    }
-    
-    
-    .container .navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 1.5rem;
-    
-    
-    }
+.container {
+      max-width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
+   
+   }
+   
+   
+.container .navbar {
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     padding: 1.5rem;
+   
+   
+   }
 
-    .header-ul {
-      display: flex;
-      gap: 2rem;
-      text-align: center;
-      color: hsl(228, 39%, 23%);
-    }
+
+  .header-ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: hsl(228, 39%, 23%);
+}
+  
+
      
     
-     
     
-    
-    h3  {
+ h3  {
     padding-bottom: 40px;
     }
     
@@ -52,7 +53,7 @@
     
     
     
-    .menu {
+.menu {
       padding: 10px;
       max-width: 30%;
       margin-left: 700px;
@@ -60,24 +61,23 @@
     
     }
     
-    .container > .log  {
+.container > .log  {
       text-align: left;
     
     }
     
-    .container > .orange-button  {
+.container > .orange-button  {
     text-align: right;
     
     }
     
     
-    
-    ul > li {
+ul > li {
       list-style-type: none;
     }
     
     
-    .orange-button {
+.orange-button {
       background-color: hsl(12, 88%, 59%);
       color: hsl(0, 0%, 98%);
       margin-top: 30px;
@@ -85,7 +85,7 @@
       transition: margin-bottom 0.5s;
     }
     
-    .orange-button:hover {
+.orange-button:hover {
     opacity: 0.7;
     margin-bottom: 20px;
     box-shadow: 5px 5px 15px rgb(235, 209, 209);
@@ -93,7 +93,7 @@
     
     }
     
-    button {
+button {
       padding: 8rem 2rem;
       border: none;
       border-radius: 50px;
@@ -103,15 +103,9 @@
       align-items: center;
       justify-content: center;
     } 
-    .container {
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
+
       
-      }
-      
-      
-      .container .navbar {
+.container .navbar {
       display: flex;
       justify-content: space-between;
       align-items: center; 
@@ -123,45 +117,48 @@
       
       
       
-      h3  {
-      padding-bottom: 40px;
+h3  {
+   padding-bottom: 40px;
       }
       
       
   
       
       
-      .menu {
-        padding: 10px;
-        max-width: 30%;
+menu {
+    padding: 10px;
+    max-width: 30%;
     
       
       }
       
   
-      .container > .log  {
-        text-align: left;
+     
+     
+.container > .log  {
+  text-align: left;
       
       }
   
        
        
       
-      button {
-        padding: 0.9rem 2rem;
-        border: none;
-        border-radius: 50px;
-        outline: none;
-        cursor: pointer;
-        font-weight: 500;
-        align-items: center;
+button {
+   padding: 0.9rem 2rem;
+   border: none;
+   border-radius: 50px;
+   outline: none;
+   cursor: pointer;
+   font-weight: 500;
+   align-items: center;
       
       } 
       
       
       
     
-     /* section 2 and section 3 */
+     
+ /* section 2 and section 3 */
     
     
      .container-2 {
@@ -256,7 +253,7 @@
       color: hsl(228, 39%, 23%);
       font-size: 2rem;
       text-align: start;
-      padding-right: 8rem;
+      padding-right: 3rem;
       margin-bottom: 30px;
     }
     
@@ -281,14 +278,13 @@
     
     
     .column {
-      position: relative;
+      /* position: relative;
       overflow-y: hidden;
-      transform: translateZ(0);
+      transform: translateZ(0); */
       background-color: hsl(0, 0%, 98%);
     }
     
      .container-3 {
-      margin-top: 100px; 
       max-width: 1140px;
       margin-right: auto;
       margin-left: auto;
@@ -471,100 +467,65 @@
 
  @media (min-width: 768px) and (max-width: 991px) {
      
-  .container {
+   .container {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
     
     }
 
-    .container .navbar {
-      justify-content: center;
-      
-      }
-      
-    
-    h3  {
-    padding-bottom: 40px;
-    }
-    
-    
-
-    
-    
-    .menu {
-      padding: 10px;
-      max-width: 30%;
-  
-    
-    }
-    
-
-    .container > .log  {
-      text-align: left;
-    
-    }
-
+    .header-ul {
+      gap: 1.3rem;
      
-     
-    
-    button {
-      padding: 0.9rem 2rem;
-      border: none;
-      border-radius: 50px;
-      outline: none;
-      cursor: pointer;
-      font-weight: 500;
-      align-items: center;
-    
-    } 
-    
-    
+    }
+   
     
     /* section 2 and section 3 */
-    
-    
     .container-2 {
       max-width: 720px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+     
+     
       }
+    
     
     .container-2 > .left-column {
       max-width: 50%;
       margin: 10px;
-      text-align: start;
-      font-size: 16px; 
-      /* padding-right: 10rem; */
-      
-    
+     
     }
 
 
     .container-2 > .right-column {
       max-width: 50%;
       margin: 10px;
+      padding-right: 0;
+    
 
     }
     
     .container-2 > .right-column img {
-      width: 100%;
+      width: 110%;
     
+     
     }
     
     .container-2 .left-column p {
-      padding-right: 1rem;
+      padding-right: 0;
       line-height: 1.5;
+
     }
     
     .container-2 .left-column h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: hsl(228, 39%, 23%);
-      margin-bottom: 30px;
+      font-size: 2.5rem;
+    
     
     }
     
     .container-2 .right-column p {
-      padding-right: 0.9rem;
+      padding-right: 2rem;
       color: hsl(227, 12%, 61%);
       font-size: 16px;
       line-height: 1.5;
@@ -573,25 +534,16 @@
     
     .container-2 .right-column h5 {
       padding-right: 0.9rem;
-      color: hsl(228, 39%, 23%);
-      font-size: 16px;
-      margin-bottom: 20px;
-      margin-top: 20px;
-      display: flex;
-      flex-flow: row; 
-      align-items: center;
-      gap: 15px;
-    
+     
     }
     
     
     
     h2  {
-      color: hsl(228, 39%, 23%);
       font-size: 2rem;
-      text-align: start;
       padding-right: 1rem;
       margin-bottom: 30px;
+      margin-top: 300px;
     }
     
     /* section 4 */
@@ -621,13 +573,9 @@
     
      
     /* footer */
-    
-    
+
+
    
-
-    
-
-
  }
 
 
@@ -650,12 +598,57 @@
 
 
 @media (min-width: 375px) and (max-width: 767px) {
-
-  .intro {
-    background:
-url(./images/bg-tablet-pattern.svg) no-repeat -10% -180px;
-    text-align: center;
+  .container {
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
   }
+  
+ 
+  .header-ul {
+    display: none;
+  
+  
+  }
+
+ 
+
+  .logo {
+    
+    margin: 0 auto;
+      }
+
+
+  .container-2 {
+    padding: 50px 0;
+    display: block;
+  }
+
+
+  .container .left-column {
+    align-items: center;
+   }
+
+  .container .left-column {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    align-items: flex-start;
+   } 
+
+
+   .container .right-column {
+    align-items: center;
+   }
+
+  .container .right-column {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    align-items: flex-start;
+   } 
+ 
+   
 }
 
 
