@@ -92,6 +92,23 @@ ul > li {
     
     
     }
+
+.orange-btn {
+      background-color: hsl(12, 88%, 59%);
+      color: hsl(0, 0%, 98%);
+      margin-top: 30px;
+      transition: box-shadow 0.15s;
+      transition: margin-bottom 0.5s;
+    }
+    
+.orange-btn:hover {
+    opacity: 0.7;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgb(235, 209, 209);
+    
+    
+    }
+
     
 button {
       padding: 8rem 2rem;
@@ -142,7 +159,7 @@ menu {
   
        
        
-      
+/*       
 button {
    padding: 0.9rem 2rem;
    border: none;
@@ -154,7 +171,7 @@ button {
       
       } 
       
-      
+       */
       
     
      
@@ -168,6 +185,7 @@ button {
       margin-right: auto;
       margin-left: auto;
       margin-top: 10px;
+      margin-bottom: 100px;
      
      
       }
@@ -598,65 +616,97 @@ button {
 
 
 @media (min-width: 375px) and (max-width: 767px) {
-  .container {
-    max-width: 30%;
+ 
+  .header-ul{
+    display: none;
+  }
+
+  .container h1   {
+    max-width: 100%;
+    margin-left: auto;
     margin-right: auto;
+    
+  }
+
+
+  .orange-button {
+    display: none;
+  }
+  
+  .container-2 {
+    max-width: 100%;
+    margin-left: auto;
     margin-left: auto;
   }
-  
- 
-  .header-ul {
-    display: none;
-  
-  
+
+
+  .section-two .container-2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+
   }
 
- 
+  
+  .section-two .container-2 .right-column {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
 
-  .logo {
+
+  .section-two .container-2 .left-column h1 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+
     
-    margin: 0 auto;
-      }
+  }  
 
 
-  .container-2 {
-    padding: 50px 0;
-    display: block;
+  .section-two .container-2 .left-column p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+
   }
 
 
-  .container .left-column {
-    align-items: center;
-   }
 
-  .container .left-column {
+  .section-three .container-2 {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
-    align-items: flex-start;
-   } 
-
-
-   .container .right-column {
+    justify-content: space-between;
     align-items: center;
-   }
+    flex-direction: column;
 
-  .container .right-column {
-    display: flex;
-    flex-flow: column;
-    gap: 2rem;
-    align-items: flex-start;
-   } 
- 
-   
+  }
+
+  
+
+  .section-three .container-2 .left-column {
+    max-width: 100%;
+    margin-left: auto;
+    margin-left: auto;
 }
 
+.section-three .container-2 .right-column{
+  max-width: 100%;
+  margin-left: auto;
+  margin-left: auto;
+ 
+}  
 
-  
-      
-      
-      
-      
+
+
+
+}
+ 
       
       
       
