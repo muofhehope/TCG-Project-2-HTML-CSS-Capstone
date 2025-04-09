@@ -9,6 +9,16 @@ body {
     font-size: 16px;
     } 
     
+.main {
+  background-image: url(./images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position-x: 135%;
+  background-position-y: -18%;
+ 
+  
+  
+}
+    
     
 .container {
       max-width: 1140px;
@@ -82,6 +92,7 @@ ul > li {
       color: hsl(0, 0%, 98%);
       margin-top: 30px;
       transition: box-shadow 0.15s;
+      box-shadow: 1px 5px 20px rgb(250, 168, 182);
       transition: margin-bottom 0.5s;
     }
     
@@ -98,7 +109,9 @@ ul > li {
       color: hsl(0, 0%, 98%);
       margin-top: 30px;
       transition: box-shadow 0.15s;
+      box-shadow: 1px 5px 20px rgb(250, 168, 182);
       transition: margin-bottom 0.5s;
+
     }
     
 .orange-btn:hover {
@@ -158,20 +171,6 @@ menu {
       }
   
        
-       
-/*       
-button {
-   padding: 0.9rem 2rem;
-   border: none;
-   border-radius: 50px;
-   outline: none;
-   cursor: pointer;
-   font-weight: 500;
-   align-items: center;
-      
-      } 
-      
-       */
       
     
      
@@ -353,10 +352,11 @@ button {
       margin-top: 30px;
       display: block;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 50px;
+      margin-bottom: 50px ;
       margin-left: 46%;
-      transform: translateY(-60px);
       transition: box-shadow 0.25s;
+      box-shadow: 1px 5px 20px rgb(250, 168, 182);
       transition: margin-bottom 0.5s;
       
       }
@@ -375,14 +375,14 @@ button {
       
       
       button {
-      padding: .8rem 2rem;
+      padding: 0.8rem 2rem;
       border: none;
       border-radius: 50px;
       outline: none;
       cursor: pointer;
       font-weight: 500;
       align-items: center;
-      
+     
       } 
       
     
@@ -396,8 +396,11 @@ button {
       align-items: center;
       background-color: hsl(12, 88%, 59%);
       padding: 40px;
+      padding-left: 300px;
+      padding-right: 200px;
+      background-image: url(./images/bg-simplify-section-desktop.svg);
     }
-    
+
     h3 {  
       font-size: 2.5rem;
       color:hsl(0, 0%, 98%);
@@ -406,11 +409,22 @@ button {
     
     .white-button {
       color: hsl(12, 88%, 59%);
-      background: hsl(0, 0%, 98%)e;
+      background: hsl(0, 0%, 98%);
       font-weight: 700;
     }
     
+    .end-bar button {
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 50px;
+      outline: none;
+      cursor: pointer;
+      font-weight: 500;
+      align-items: center;
     
+      
+     
+      } 
     
     
     /* footer */
@@ -419,6 +433,7 @@ button {
     .footer-container {
       background-color: hsl(233, 12%, 13%);
       color: hsl(0, 0%, 98%);
+     
       
       
       }
@@ -430,8 +445,8 @@ button {
         margin-right: auto;
         margin-left: auto;
         padding-top: 50px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-left: 300px;
+        padding-right: 300px;
         padding-bottom: 30px;
       }
       
@@ -450,6 +465,8 @@ button {
         flex-flow: row;
         gap: 15px;
       }
+
+
       
       .menu-links a {
         color: hsl(0, 0%, 98%);
@@ -616,13 +633,23 @@ button {
       line-height: 1.7;
       
     }
+
+   .end-bar {
+    padding-right: 30px;
+    padding-left: 30px;
+   }
+
     
      
     /* footer */
     .small-orange-btn {
-     margin-top: 20px;
-
+     margin-top: 20pxpx;
    
+  }
+
+  .footer-container {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -766,23 +793,30 @@ button {
     flex-flow: column;
     text-align: center;
     gap: 30px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
 
   /* footer */
+
   .footer-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   
 
+  .end-bar {
+    padding-right: 30px;
+    padding-left: 30px;
+
+  }
+
   .social-icons {
-    padding-left: 100px;
+    padding-left: 200px;
   }
 
 
