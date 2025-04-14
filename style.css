@@ -832,8 +832,9 @@ menu {
   
   }
 
-  ul.a {
+  .col-1 .social-icons > ul {
     justify-content: center;
+   
   }
   
 
