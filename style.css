@@ -175,11 +175,12 @@ menu {
     
      
  /* section 2 and section 3 */
-    
-    
+
+ 
      .container-2 {
       display: flex; 
-      justify-content: flex-start;
+      
+     justify-content: flex-start; 
       max-width: 1140px;
       margin-right: auto;
       margin-left: auto;
@@ -190,17 +191,17 @@ menu {
       }
     
     .container-2 > .left-column {
-      /* background-color: #f1f1f1;  */
+     
       max-width: 50%;
       margin: 10px;
       text-align: start;
       font-size: 16px; 
-      /* padding-right: 10rem; */
-      
+    
     
     }
+
+
     .container-2 > .right-column {
-       /* background-color: #f1f1f1;  */
       max-width: 50%;
       margin: 10px;
       text-align: start;
@@ -209,7 +210,7 @@ menu {
      
     }
     
-    
+     
     .container-2 .left-column p {
      
       color: hsl(227, 12%, 61%);
@@ -295,9 +296,7 @@ menu {
     
     
     .column {
-      /* position: relative;
-      overflow-y: hidden;
-      transform: translateZ(0); */
+    
       background-color: hsl(0, 0%, 98%);
     }
     
@@ -335,7 +334,7 @@ menu {
     }
     
     
-    .pics {
+    .image {
       margin-top: 10px;
       width: 60px;
       height: auto;
@@ -356,7 +355,7 @@ menu {
       margin-bottom: 50px ;
       margin-left: 46%;
       transition: box-shadow 0.25s;
-      box-shadow: 1px 5px 20px rgb(250, 168, 182);
+      box-shadow: 1px 1px 20px rgb(250, 168, 182);
       transition: margin-bottom 0.5s;
       
       }
@@ -396,8 +395,8 @@ menu {
       align-items: center;
       background-color: hsl(12, 88%, 59%);
       padding: 40px;
-      padding-left: 300px;
-      padding-right: 200px;
+      padding-left: 180px;
+      padding-right: 180px;
       background-image: url(./images/bg-simplify-section-desktop.svg);
     }
 
@@ -528,6 +527,7 @@ menu {
     /* media tablet device */
 
  @media (min-width: 768px) and (max-width: 991px) {
+  .intro
      
    .container {
     max-width: 720px;
@@ -663,19 +663,24 @@ menu {
 /* mobile devices    */
 
 
+ @media (min-width: 375px) and (max-width: 767px) {
 
-@media (min-width: 375px) and (max-width: 767px) {
- 
   .header-ul{
     display: none;
-  }
+}
 
   .container h1   {
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    text-align: center;
     
   }
+
+.photo {
+  width: 100%;
+  text-align: center;
+}
 
 
   .orange-button {
@@ -685,7 +690,8 @@ menu {
   .container-2 {
     max-width: 100%;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
 
@@ -695,8 +701,8 @@ menu {
     justify-content: space-between;
     align-items: center;
     flex-direction: column-reverse;
-
-  }
+  
+  } 
 
   
   .section-two .container-2 .right-column {
@@ -742,9 +748,10 @@ menu {
   
 
   .section-three .container-2 .left-column {
-    max-width: 100%;
+    max-width: 100%; 
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .section-three .container-2 .right-column{
@@ -777,13 +784,25 @@ menu {
   
   
   .section-three .container-2 .right-column p {
-      padding-right: 0;
+       padding-right: 0; 
     }
  
 
   .container-3 h2 {
-    padding-left: 50px;
+     padding-left: 50px; 
   }
+  
+
+  .row {
+    gap: 10px;
+    
+  }
+  
+
+  .column {
+    min-width: 10px;
+  }
+  
 
   .orange-button-2 {
     margin-left: 40%;
@@ -792,63 +811,33 @@ menu {
   .end-bar {
     flex-flow: column;
     text-align: center;
-    gap: 30px;
-    
+   
   }
+  .end-bar button {
+    padding: 0.3rem 2.5rem;
+   
+    } 
 
+ 
   /* footer */
-
+ 
   .footer-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
-  }
-  
-
-  .end-bar {
-    padding-right: 30px;
-    padding-left: 30px;
-
-  }
-
-  .social-icons {
-    padding-left: 250px;
-    padding-right: 250px;
-  }
-
-
-  .form .input {
-    padding: 15px 100px;
-    border-radius: 20px;
-    border: none;
-   
-  }
- }
-  
-
- 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-
-
-
-
-      
-     
-   
-      
+    margin-right: 0;
     
+  }
+
+  .social-icons { 
+    padding-left: 60px ;
+    padding-right: 60px ;
+
+  }
+
+}
+ 
